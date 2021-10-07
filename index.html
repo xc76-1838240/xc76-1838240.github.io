@@ -9,7 +9,7 @@
         <h2>This is Anthony's Webpage</h2>
         <!--paragrah-->
         <p> I major in ACMS-DMA, and I like basketball.</p>
-        <p> The courses I am taking in this quarter<p>
+        <p> The courses I am taking in this quarter:<p>
 
         <!--list-->
         <ul>
@@ -19,7 +19,27 @@
             <li> Cfrm 420</li>
             <li> MUSICAP 318</li>
         </ul>
-
+        <br>
+        <br>
+        <hr>
+        <br>
+        <form action="form.js" method="POST">
+            <div>
+                <label>=First Name</label>
+                <input type="text" name="firstname" placeholder="Enter first name">
+            </div>
+            <div>
+                <label>=Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter last name">
+            </div>  
+            <div>
+                <label>=Email</label>
+                <input type="text" name="email" placeholder="Enter email">
+            </div>   
+            <input type="submit" name="submit" value="submit">
+        </form>
+        <br>
+           
         <script type="text/javascript">
 
             var c=document.getElementById("myCanvas");
